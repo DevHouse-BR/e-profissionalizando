@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<type version="1.0.0" name="Curso">
+  <params>
+    <param type="rating" identifier="56991957-6582-4685-a438-cbaa445062f6" name="Avalia&#xE7;&#xE3;o" description="Avalia&#xE7;&#xE3;o do curso" stars="5" allow_vote="0"/>
+    <param type="text" identifier="5d511869-dffe-4162-ba28-44db4ed2d9f4" name="Pre&#xE7;o" description="Pre&#xE7;o do curso" default="" repeatable="0"/>
+    <param type="image" identifier="e33e4626-1ea6-4017-a735-2141c49ae504" name="Imagem" description="Imagem do curso" custom_link="0" custom_title="0" default_rel=""/>
+    <param type="textarea" identifier="a69d83e3-18e5-4ccd-bca9-c5b0289a34a2" name="Descri&#xE7;&#xE3;o Curta" description="Uma breve descri&#xE7;&#xE3;o do curso" default="" jplugins="1" repeatable="0"/>
+    <param type="textarea" identifier="07588a40-575b-4204-8135-be928ba1465d" name="Descri&#xE7;&#xE3;o Completa" description="Descri&#xE7;&#xE3;o completa do curso" default="" jplugins="1" repeatable="0"/>
+    <param type="text" identifier="c1c3334d-3e61-4894-b1da-34b248b4b9f7" name="Carga Hor&#xE1;ria" description="Quantidade de horas do curso" default="" repeatable="0"/>
+    <param type="text" identifier="d2c62537-8b15-4559-8920-ee5303d37c77" name="Ementa" description="Ementa do Curso" default="" repeatable="1"/>
+    <param type="textarea" identifier="43bc37b1-005a-4401-828e-703e05ed2238" name="HTML Bot&#xE3;o Comprar" description="C&#xF3;digo HTML Bot&#xE3;o Comprar" default="" jplugins="0" repeatable="0"/>
+    <param type="link" identifier="e73affe4-e32b-4601-8ae4-dc5c191efba6" name="Link para Compra" description="Link para o carrinho de compras exibido no teaser" use_link_as_text="0" default_text="" custom_title="0" default_rel="" repeatable="0"/>
+  </params>
+</type>

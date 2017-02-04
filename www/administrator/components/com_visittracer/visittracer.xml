@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>VisitTracer</name>
+    <author>Leonardo</author>
+    <creationDate>24/08/2010</creationDate>
+    <license>Copyright (c) 2010 - All Rights Reserved</license>
+    <version>1.0</version>
+    <description>Exibe lista de páginas visitádas pelo usuário.</description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.visittracer.php</installfile>
+    <uninstallfile>uninstall.visittracer.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_visittracer">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>visittracer.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_visittracer.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">VisitTracer</menu>
+    <submenu>
+        <menu link="option=com_visittracer">VisitTracer</menu>
+    </submenu>
+
+    <files>
+        <filename>visittracer.xml</filename>
+    </files>
+    <files folder="administrator/components/com_visittracer">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.visittracer.php</filename>
+        <filename>visittracer.php</filename>
+        <filename>uninstall.visittracer.php</filename>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_visittracer.menu.ini</language>
+        <language tag="en-GB">en-GB.com_visittracer.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+
+    </params>
+
+</install>
