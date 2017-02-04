@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Enviar Boletos"
+AuthUserFile "/home/prof/.htpasswds/public_html/boletos/passwd"
+require valid-user

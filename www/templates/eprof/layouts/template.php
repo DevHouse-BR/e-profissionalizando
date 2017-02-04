@@ -25,6 +25,10 @@ include(dirname(__FILE__).'/template.config.php');
 	<div id="absolute">
 		<?php echo $this->warp->modules->render('absolute'); ?>
 	</div>
+
+
+
+
 	<?php endif; ?>
 
 	<div id="page-body">
@@ -41,7 +45,7 @@ include(dirname(__FILE__).'/template.config.php');
 				</div>
 				
 				<div class="header-1">
-					<img style="position:absolute;margin-left:-140px; margin-top:-15px" src="images/logo.jpg" />
+					<img style="position:absolute;margin-left:-140px; margin-top:-15px" src="images/logo3.gif" />
 					<div id="toolbar">
 					
 						<?php if ($this->warp->modules->count('toolbarleft')) : ?>
@@ -236,10 +240,22 @@ include(dirname(__FILE__).'/template.config.php');
 					<a class="anchor" href="#page"></a>
 					<?php echo $this->warp->modules->render('footer'); ?>
 					<?php echo $this->warp->modules->render('debug'); ?>
+<center><a href="http://whos.amung.us/stats/4v7khyj912ky/"><img title="Click to see how many people are online" border="0" width="3" height="3" alt="" src="http://whos.amung.us/cwidget/4v7khyj912ky/ed1c24000000.png" /></a></center>
+<!--/* OpenX Javascript Tag v2.8.7 */-->
+
+<!--/* OpenX Interstitial or Floating DHTML Tag v2.8.7 */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var ox_u = 'http://www.inglescurso.net.br/openx/www/delivery/al.php?target=_blank&ct0=INSERT_CLICKURL_HERE&layerstyle=simple&align=center&valign=middle&padding=2&closetime=35&padding=2&shifth=0&shiftv=0&closebutton=t&nobg=t&noborder=t';
+   if (document.context) ox_u += '&context=' + escape(document.context);
+   document.write("<scr"+"ipt type='text/javascript' src='" + ox_u + "'></scr"+"ipt>");
+//]]>--></script>
+
 				</div>
 				<?php endif; ?>
 				
 				<div class="footer-b1">
+
 					<div class="footer-b2">
 						<div class="footer-b3">
 						</div>
@@ -252,5 +268,6 @@ include(dirname(__FILE__).'/template.config.php');
 		</div>
 	</div>
 	
+
 </body>
 </html>

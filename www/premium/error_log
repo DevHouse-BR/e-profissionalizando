@@ -1,0 +1,6 @@
+[20-Jan-2011 23:35:04] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/prof/public_html/premium/core.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 15
+[20-Jan-2011 23:45:36] PHP Fatal error:  Call to undefined function phpdefine() in /home/prof/public_html/premium/db.php on line 1
+[20-Jan-2011 23:45:45] PHP Fatal error:  Call to undefined function phpdefine() in /home/prof/public_html/premium/db.php on line 1
+[20-Jan-2011 23:46:56] PHP Fatal error:  Call to undefined function phpdefine() in /home/prof/public_html/premium/db.php on line 1
+[20-Jan-2011 23:56:34] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'prof_link'@'200.98.246.196' (using password: YES) in /home/prof/public_html/premium/core.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 15
+[20-Jan-2011 23:57:18] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/prof/public_html/premium/vars.php on line 1

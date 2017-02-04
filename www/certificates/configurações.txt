@@ -1,0 +1,3 @@
+É fácil. Basta setar o banco no arquivo abaixo.
+
+app/config/database.php

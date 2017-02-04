@@ -35,11 +35,11 @@ if (!($image = $this->application->getImage('content.image'))) {
 $css_class = $this->application->getGroup().'-'.$this->template->name;
 
 ?>
-<style type="text/css">
+<!--style type="text/css">
 	div#yoo-zoo h1.title{
 		margin-top:0px !important;
 	}
-</style>
+</style-->
 <div id="yoo-zoo" class="yoo-zoo <?php echo $css_class; ?> <?php echo $css_class.'-frontpage'; ?>">
 	
 	<?php if ($this->params->get('template.show_alpha_index')) : ?>

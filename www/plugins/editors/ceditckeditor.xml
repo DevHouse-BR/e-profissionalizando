@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="editors" method="upgrade">
+	<name>Editor - ceditCKEditor</name>
+	<version>1.0.0</version>
+	<creationDate>April 2010</creationDate>
+	<author>David Barrett</author>
+	<authorEmail>N/A</authorEmail>
+	<authorUrl>www.cedit.biz</authorUrl>
+	<copyright>David Barrett 2010</copyright>
+	<license>GPL</license>
+	<description>DESCCKEDITOR</description>
+  <files>
+    <filename plugin="ceditckeditor">ceditckeditor.php</filename>
+    <folder>ceditckeditor</folder>
+    <folder>ceditfinder</folder>
+  </files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_editors_ceditckeditor.ini</language>
+	</languages>
+	<params>
+		<param name="toolbar" type="list" default="full" label="TOOLBAR" description="CHOOSE TOOLBAR">
+			<option value="basic">Basic</option>
+			<option value="full">Full</option>
+		</param>
+		<param name="toolbar_collapsible" type="radio" default="1" label="TOOLBAR CAN COLLAPSE" description="TOOLBAR COLLAPSE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="skin" type="list" default="kama" label="Skin" description="SELECT SKIN">
+			<option value="kama">Kama</option>
+			<option value="office2003">Office 2003</option>
+			<option value="v2">v2</option>
+		</param>
+		<param name="resize_enabled" type="radio" default="1" label="Enable resize" description="ENABLE RESIZE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="html_entities" type="radio" default="1" label="Use HTML Entities" description="HTML ENTITIES">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="html_encode" type="radio" default="0" label="HTML encode output" description="HTML ENCODE">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+  		<param name="language_mode" type="list" default="0" label="Editor language" description="DESCLANGMODE">
+ 			<option value="0">Browser default</option>
+ 			<option value="1">Joomla! default</option>
+ 		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="imagesfolder" type="text" default="images" label="Images root folder" description="IMAGE ROOT" />
+		<param name="thumbwidth" type="text" default="100" label="Thumbnail width" description="THUMBWIDTH" />
+		<param name="thumbheight" type="text" default="100" label="Thumbnail height" description="THUMBHEIGHT" />
+  		<param name="confirmdelete" type="radio" default="1" label="Confirm image delete" description="CONFIRMDELETEIMAGE">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+	</params>
+</install>

@@ -1,0 +1,7 @@
+[14-Sep-2010 16:24:20] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/prof/public_html/certificates/app/views/clients_courses/view_pdf.ctp on line 71
+[14-Sep-2010 16:29:39] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/prof/public_html/certificates/app/views/clients_courses/view_pdf.ctp on line 71
+[14-Sep-2010 16:47:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/prof/public_html/certificates/app/views/clients_courses/view_pdf.ctp on line 44
+[14-Sep-2010 17:02:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/prof/public_html/certificates/app/views/clients_courses/view_pdf.ctp on line 45
+[14-Sep-2010 17:04:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/prof/public_html/certificates/app/views/clients_courses/view_pdf.ctp on line 45
+[14-Sep-2010 17:04:20] PHP Parse error:  syntax error, unexpected T_STRING in /home/prof/public_html/certificates/app/views/clients_courses/view_pdf.ctp on line 45
+[14-Sep-2010 17:04:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/prof/public_html/certificates/app/views/clients_courses/view_pdf.ctp on line 45

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *  Copyright (c) 2009 Webguru Ltd. All rights reserved.
+ *
+ *  This file is part of Webguru's Google Analytics plugin for Joomla 1.5.
+ *
+ *  Webguru's Google Analytics plugin for Joomla 1.5.x is free software:
+ *  you can redistribute it and/or modify it under the terms of the
+ *  GNU General Public License as published by the Free Software Foundation,
+ *  either version 3 of the License, or (at your option) any later version.
+ *
+ *
+ *  Webguru's Google Analytics plugin for Joomla 1.5.x is distributed in the
+ *  hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+ *  implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *  See the GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *  (Last updated: October 16th, 2009 - version 0.6)
+-->
+<install version="1.5.2" type="plugin" group="system" method="upgrade">
+	<name>System - WebGuru's Google Analytics</name>
+	<author>Saruul.S</author>
+	<creationDate>september 2009</creationDate>
+	<copyright>Copyright (C) 2009 webguru. All rights reserved.</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>info@webguru.mn</authorEmail>
+	<authorUrl>www.webguru.mn</authorUrl>
+	<version>0.6</version>
+	<description>Thank you for installing the webguru google analytics plugin for Joomla! 1.5</description>
+	<files>
+		<filename plugin="webgurugoogleanalytics">webgurugoogleanalytics.php</filename>
+                <folder>includes</folder>
+	</files>
+	<params>
+  		<param name="ga_javascript"
+	  		type="textarea"
+	  		default=""
+	  		label="Paste your ENTIRE Google Analytics code into the text area:"
+	  		description="Copy and paste the entire code from Google Analytics here"
+	  		rows="10" cols="40" >
+	  	</param>
+
+	  	<param name="log_admin_area"
+	  		type="radio"
+	  		default="1"
+	  		label="Do not log admin area"
+	  		description="If you DO NOT want to log the admin area, please check YES." >
+	  		<option value="0">No</option>
+			<option value="1">Yes</option>
+	  	</param>
+
+  		<param name="log_super_administrator"
+  			type="radio"
+			default="1"
+			label="Do not log Super Administrators when logged in"
+			description="If you DO NOT want to log Super Administrators throughout your entire website when they are logged in, please check YES." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+  		</param>
+
+  		<param name="log_administrator"
+  			type="radio"
+			default="1"
+			label="Do not log Administrators when logged in"
+			description="If you DO NOT want to log Administrators throughout your entire website when they are logged in, please check YES." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+  		</param>
+
+		<param name="log_manager"
+			type="radio"
+			default="0"
+			label="Do not log Managers when logged in"
+			description="If you DO NOT want to log Managers throughout your entire website when they are logged in, please check YES." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+  		</param>
+
+  		<param name="log_publisher"
+  			type="radio"
+			default="0"
+			label="Do not log Publishers when logged in"
+			description="If you DO NOT want to log Publishers throughout your entire website when they are logged in, please check YES." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+  		</param>
+
+  		<param name="log_editor"
+  			type="radio"
+			default="0"
+			label="Do not log Editors when logged in"
+			description="If you DO NOT want to log Editors throughout your entire website when they are logged in, please check YES." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+  		</param>
+
+  		<param name="log_author"
+  			type="radio"
+			default="0"
+			label="Do not log Authors when logged in"
+			description="If you DO NOT want to log Authors throughout your entire website when they are logged in, please check YES." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+ 		</param>
+
+ 		<param name="log_error_page"
+	  		type="radio"
+	  		default="1"
+	  		label="Log 404 errors as /error/error code/{url}?referrer={referrer}"
+	  		description=" If you want to log 404 error pages, please check YES." >
+	  		<option value="0">No</option>
+			<option value="1">Yes</option>
+	  	</param>
+
+	  	<param name="log_search"
+	  		type="radio"
+	  		default="1"
+	  		label="Log searches as /search/{search}?referrer={referrer}"
+	  		description="If you want to log searches on your website, please check YES." >
+	  		<option value="0">No</option>
+			<option value="1">Yes</option>
+	  	</param>
+
+	  	<param name="log_outgoing_link"
+	  		type="radio"
+	  		default="1"
+	  		label="Log outgoing links as /outgoing/{url}?referrer={referrer}"
+	  		description="If you want to log outgoing links from your website, please check YES" >
+	  		<option value="0">No</option>
+			<option value="1">Yes</option>
+	  	</param>
+	</params>
+        <languages>
+            <language tag="en-GB">en-GB.plg_system_webgurugoogleanalytics.ini</language>
+        </languages>
+</install>

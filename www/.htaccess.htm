@@ -1,0 +1,340 @@
+##
+# @version $Id: htaccess.txt 14401 2010-01-26 14:10:00Z louis $
+# @package Joomla
+# @copyright Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+# @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+# Joomla! is Free Software
+##
+
+#####################################################
+#  READ THIS COMPLETELY IF YOU CHOOSE TO USE THIS FILE
+#
+# The line just below this section: 'Options +FollowSymLinks' may cause problems
+# with some server configurations.  It is required for use of mod_rewrite, but may already
+# be set by your server administrator in a way that dissallows changing it in
+# your .htaccess file.  If using it causes your server to error out, comment it out (add # to
+# beginning of line), reload your site in your browser and test your sef url's.  If they work,
+# it has been set by your server administrator and you do not need it set here.
+#
+#####################################################
+
+##  Can be commented out if causes errors, see notes above.
+Options +FollowSymLinks
+
+#
+#  mod_rewrite in use
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-escrita\-e\-redacao$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-escrita\-e\-redacao" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^fale\/-conosco$ "http\:\/\/www\.e\-profissionalizando\.com\/pt\fale\-conosco" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/cursos\-profissionalizantes$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-profissionalizantes" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/pedagogia$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-pedagogia" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/cursos\-na\-area\-da\-saude$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-na\-area\-da\-saude" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/webdesign\-e\-editoracao$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-webdesign\-e\-editoracao\-grafica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/recursos\-humanos$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-recursos\-humanos" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/meio\-ambiente$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-sobre\-meio\-ambiente" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/informatica$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-informatica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/gestao\-e\-lideranca$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-gestao\-e\-lideranca" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/direito$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-nocoes\-de\-direito" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/contabilidade\-e\-economia$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-contabilidade\-e\-economia" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/comunicacao\-e\-marketing$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-comunicacao\-e\-marketing" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/category\/administracao$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-administracao" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/word\-e\-excel$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-word\-e\-excel" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/seguranca\-na\-internet$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-secugranca\-na\-internet" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-redes$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-redes" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-power\-point\-2007$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-power\-point\-2007" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-photoshop$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-photoshop" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-linux$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-linux" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-flash$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-flash" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-corel\-draw$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-corel\-draw" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-asp$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-asp" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-primeiros\-socorros$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-primeiros\-socorros" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-enfermagem$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-enfermagem" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-webmaster$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-webmaster" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/seguranca\-do\-trabalho$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-seguranca\-do\-trabalho" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-profissionalizantes\/item\/fotografia\-digital$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-fotografia\-digital" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-profissionalizantes\/item\/curso\-de\-jornalismo\-online$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-jornalismo\-online" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-profissionalizantes\/item\/curso\-de\-telemarketing$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-telemarketing" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/gestao\-escolar$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-gestao\-escolar" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-educacao\-infantil$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-educacao\-infantil" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-eja$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-educacao\-de\-jovens\-e\-adultos" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-jornalismo\-online$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-jornalismo\-online" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-corel\-draw$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-corel\-draw" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-flash$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-flash" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-photoshop$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-photoshop" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-webmaster$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-webmaster" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-asp$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-asp" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-power\-point\-2007$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-power\-point\-2007" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-redes$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-redes" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/word\-e\-excel$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-word\-e\-excel" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/curso\-de\-linux$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-linux" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-webdesign\-e\-editoracao\-grafica\/item\/seguranca\-na\-internet$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-seguranca\-na\-internet" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-recursos\-humanos\/item\/recolocacao\-profissional$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-recolocacao\-profissional" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-recursos\-humanos\/item\/secretariado\-executivo$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-secretariado\-executivo" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-recursos\-humanos\/item\/curso\-de\-chefia\-e\-lideranca$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-chefia\-e\-lideranca" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-recursos\-humanos\/item\/administracao\-contabil\-e\-financeira$ "http\:\/\/www\.e\-profissionalizando\.com\/administracao\-contabil\-e\-financeira" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-recursos\-humanos\/item\/curso\-departamento\-de\-pessoal$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-departamento\-de\-pessoal" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-recursos\-humanos\/item\/recrutamento\-e\-selecao$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-recrutamento\-e\-selecao" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-recursos\-humanos\/item\/curso\-de\-gestao\-publica$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-gestao\-publica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^home\/item\/curso\-de\-educao\-ambiental$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-educao\-ambiental" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-sobre\-meio\-ambiente\/item\/curso\-de\-educao\-ambiental$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-educao\-ambiental" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-sobre\-meio\-ambiente\/item\/reciclagem\-e\-energias\-renovaveis$ "http\:\/\/www\.e\-profissionalizando\.com\/reciclagem\-e\-energias\-renovaveis" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-informatica\/item\/hp12\-e\-matematica\-financeira$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-matematica\-financeira" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/marketing\-pessoal$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-marketing\-pessoal" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/curso\-de\-logistica$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-logistica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/curso\-de\-propaganda\-e\-marketing$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-propaganda\-e\-marketing" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/cursdo\-de\-sucesso\-profissional$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-sucesso\-profissional" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/tecnicas\-de\-vendas$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-tecnicas\-de\-vendas" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/bolsa\-de\-valores$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-bolsa\-de\-valores" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/contabilidade\-basica$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-contabilidade\-basica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/nocoes\-de\-direito$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-nocoes\-de\-direito" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/leitura\-dinamica$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-leitura\-dinamica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/aprenda\-a\-falar\-em\-publico$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-aprenda\-a\-falar\-em\-publico" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-de\-gestao\-e\-lideranca\/item\/curso\-de\-administracao\-do\-tempo$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-administracao\-do\-tempo" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^curso\-de\-nocoes\-de\-direito\/item\/nocoes\-de\-direito$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-nocoes\-de\-direito" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^curso\-de\-nocoes\-de\-direito\/item\/curso\-de\-gestao\-publica$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-gestao\-publica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^component\/zoo\/item\/curso\-de\-gestao\-empresarial$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-gestao\-empresarial" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^curso\-de\-autocad\/item\/curso\-de\-autocad$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-autocad" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^cursos\-na\-area\-da\-saude\/item\/seguranca\-do\-trabalho$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-seguranca\-do\-trabalho" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/item\/curso\-de\-administracao\-de\-empresas$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-administracao\-de\-empresas" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^videos\/?(.*)$ "http\:\/\/videos\.videoaulasonline\.com\.br\/$1" [R=301,L]
+
+########## Begin - Rewrite rules to block out some common exploits
+## If you experience problems on your site block out the operations listed below
+## This attempts to block the most common type of exploit `attempts` to Joomla!
+#
+## Deny access to extension xml files (uncomment out to activate)
+#<Files ~ "\.xml$">
+#Order allow,deny
+#Deny from all
+#Satisfy all
+#</Files>
+## End of deny access to extension xml files
+RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]
+# Block out any script trying to base64_encode crap to send via URL
+RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
+# Block out any script that includes a <script> tag in URL
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+# Send all blocked request to homepage with 403 Forbidden error!
+RewriteRule ^(.*)$ index.php [F,L]
+#
+########## End - Rewrite rules to block out some common exploits
+
+#  Uncomment following line if your webserver's URL
+#  is not directly related to physical file paths.
+#  Update Your Joomla! Directory (just / for root)
+
+# RewriteBase /
+
+########## Begin - Joomla! core SEF Section
+#
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/index.php
+RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$  [NC]
+RewriteRule (.*) index.php
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+#
+########## End - Joomla! core SEF Section
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/turimos\-bares\-e\-hotelaria$ "http\:\/\/www\.e\-profissionalizando\.com\/bares\-turismo\-e\-hotelaria" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/curso\-de\-letras\-e\-portugues$ "http\:\/\/www\.e\-profissionalizando\.com\/curso\-de\-letras\-e\-portugues" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/cursos\-de\-gestao\-imobiliaria$ "http\:\/\/www\.e\-profissionalizando\.com\/gestao\-imobiliaria" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/curso\-de\-idiomas$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-idiomas" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/cursos\-campeoes\-de\-vendas$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-campeoes\-de\-vendas" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/vestibular\-enem\-concursos$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-para\-concursos" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/operador\-de\-computador$ "http\:\/\/www\.e\-profissionalizando\.com\/operador\-de\-computador" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/cursos\-profissionalizantes$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-profissionalizantes" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/pedagogia$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-pedagogia" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/webdesign\-e\-editoracao$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-webdesign\-e\-editoracao\-grafica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/recursos\-humanos$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-recursos\-humanos" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/informatica$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-informatica" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/gestao\-e\-lideranca$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-gestao\-e\-lideranca" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/direito$ "http\:\/\/www\.e\-profissionalizando\.com\/preparatorio\-para\-oab" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/contabilidade\-e\-economia$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-contabilidade\-e\-economia" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/comunicacao\-e\-marketing$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-comunicacao\-e\-marketing" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^pt\/home\/category\/administracao$ "http\:\/\/www\.e\-profissionalizando\.com\/cursos\-de\-administracao" [R=301,L]
+

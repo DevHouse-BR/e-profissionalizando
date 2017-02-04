@@ -1,0 +1,121 @@
+[25-Sep-2010 23:50:34] PHP Fatal error:  Uncaught YDatabase::queryObjectList failed. (MySQL server has gone away SQL=SELECT a.*, b.application_id FROM jos_zoo_comment AS a LEFT JOIN jos_zoo_item AS b ON a.item_id = b.id LEFT JOIN jos_zoo_category_item AS c ON b.id = c.item_id WHERE b.application_id = 1 AND a.state = 1 AND c.category_id IN (0,17,16,15,14,11,8,13,12,9,7,6,5,4,3,2,1) GROUP BY a.id ORDER BY created DESC LIMIT 0, 4)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 83
+[26-Sep-2010 20:37:31] PHP Fatal error:  Uncaught YDatabase::queryObjectList failed. (MySQL server has gone away SQL=SELECT a.category_id, count(b.id) AS item_count FROM jos_zoo_category_item AS a JOIN jos_zoo_item AS b ON b.id = a.item_id AND b.access <= 0 AND (b.state = 1 AND ('2010-09-26 23:32:11' BETWEEN b.publish_up AND b.publish_down OR '2010-09-26 23:32:11' >= b.publish_up AND b.publish_down = '0000-00-00 00:00:00')) GROUP BY a.category_id)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 83
+[26-Sep-2010 20:37:49] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_item WHERE id = 53)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[27-Sep-2010 11:22:56] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/jfnewsfeeds.php on line 138
+[27-Sep-2010 11:22:58] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/jfnewsfeeds.php on line 138
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/jfweblinks.php on line 148
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/weblinks.php on line 138
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/weblinks.php on line 143
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/contacts.php on line 111
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/categories.php on line 109
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/sections.php on line 106
+[27-Sep-2010 11:23:26] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/newsfeeds.php on line 126
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/jfweblinks.php on line 148
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/weblinks.php on line 138
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/weblinks.php on line 143
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/contacts.php on line 111
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/categories.php on line 109
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/sections.php on line 106
+[27-Sep-2010 11:23:28] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/newsfeeds.php on line 126
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/jfweblinks.php on line 148
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/content.php on line 254
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/weblinks.php on line 138
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/weblinks.php on line 143
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/contacts.php on line 111
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/categories.php on line 109
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/sections.php on line 106
+[19-Oct-2010 16:35:25] PHP Warning:  Invalid argument supplied for foreach() in /home/prof/public_html/plugins/search/newsfeeds.php on line 126
+[19-Oct-2010 16:35:25] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_item WHERE id = 65)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[19-Oct-2010 17:01:45] PHP Fatal error:  Uncaught YDatabase::queryObjectList failed. (MySQL server has gone away SQL=SELECT a.*, b.application_id FROM jos_zoo_comment AS a LEFT JOIN jos_zoo_item AS b ON a.item_id = b.id LEFT JOIN jos_zoo_category_item AS c ON b.id = c.item_id WHERE b.application_id = 1 AND a.state = 1 AND c.category_id IN (0,17,16,15,14,11,8,13,12,9,7,6,5,4,3,2,1) GROUP BY a.id ORDER BY created DESC LIMIT 0, 4)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 83
+[19-Oct-2010 17:16:22] PHP Fatal error:  Uncaught YDatabase::queryObjectList failed. (MySQL server has gone away SQL=SELECT a.*, b.application_id FROM jos_zoo_comment AS a LEFT JOIN jos_zoo_item AS b ON a.item_id = b.id LEFT JOIN jos_zoo_category_item AS c ON b.id = c.item_id WHERE b.application_id = 1 AND a.state = 1 AND c.category_id IN (0,17,16,15,14,11,8,13,12,9,7,6,5,4,3,2,1) GROUP BY a.id ORDER BY created DESC LIMIT 0, 4)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 83
+[19-Oct-2010 17:28:14] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[19-Oct-2010 17:28:14] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[19-Oct-2010 18:58:02] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_item WHERE id = 53)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[19-Oct-2010 19:41:47] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_item WHERE id = 54)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[19-Oct-2010 21:09:48] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[19-Oct-2010 21:09:48] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[19-Oct-2010 21:11:11] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[19-Oct-2010 21:11:11] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[27-Oct-2010 20:38:03] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[27-Oct-2010 20:38:03] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[24-Dec-2010 21:47:01] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_application WHERE id = 1)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[26-Dec-2010 01:50:21] PHP Fatal error:  Call to a member function children() on a non-object in /home/prof/public_html/templates/eprof/warp/systems/joomla.1.5/menus/pre.php on line 34
+[30-Dec-2010 17:21:17] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_application WHERE id = 1)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[03-Jan-2011 11:51:18] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_item WHERE id = 75)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[20-Jan-2011 15:06:54] PHP Fatal error:  Uncaught YDatabase::queryObjectList failed. (Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like' SQL=SELECT DISTINCT a.* FROM jos_zoo_item AS a LEFT JOIN jos_zoo_search_index AS b ON a.id = b.item_id LEFT JOIN jos_zoo_tag AS c ON a.id = c.item_id WHERE ((a.name LIKE '%técnico%' OR b.value LIKE '%técnico%' OR c.name LIKE '%técnico%') AND (a.name LIKE '%informś%' OR b.value LIKE '%informś%' OR c.name LIKE '%informś%')) AND a.state = 1 AND a.searchable = 1 AND a.access <= 0 AND (a.publish_up = '0000-00-00 00:00:00' OR a.publish_up <= '2011-01-20 17:06:54') AND (a.publish_down = '0000-00-00 00:00:00' OR a.publish_down >= '2011-01-20 17:06:54') ORDER BY a.name ASC LIMIT 0, 100)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 83
+[22-Jan-2011 13:10:41] PHP Parse error:  syntax error, unexpected '>' in /home/prof/public_html/info.php on line 1
+[22-Jan-2011 13:11:45] PHP Parse error:  syntax error, unexpected '>' in /home/prof/public_html/info.php on line 1
+[08-Feb-2011 04:56:52] PHP Fatal error:  Call to a member function children() on a non-object in /home/prof/public_html/templates/eprof/warp/systems/joomla.1.5/menus/pre.php on line 34
+[17-May-2011 13:04:34] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_item WHERE id = 100)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[13-Jun-2011 19:16:20] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 25
+[13-Jun-2011 19:17:56] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[13-Jun-2011 19:17:57] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[13-Jun-2011 19:18:38] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[13-Jun-2011 19:18:40] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[13-Jun-2011 19:18:41] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[13-Jun-2011 19:18:43] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[13-Jun-2011 19:20:23] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[13-Jun-2011 19:20:24] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[28-Jun-2011 21:31:48] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/prof/public_html/links.php on line 27
+[02-Jul-2011 01:08:26] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:08:26] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 01:12:53] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:12:53] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 01:17:54] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:17:54] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 01:25:46] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:25:46] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 01:26:56] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:26:56] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 01:29:55] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:29:55] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 01:33:13] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:33:13] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 01:38:13] PHP Fatal error:  Uncaught YDatabase::queryObject failed. (MySQL server has gone away SQL=SELECT * FROM jos_zoo_item WHERE id = 116)
+  thrown in /home/prof/public_html/administrator/components/com_zoo/framework/database.php on line 69
+[02-Jul-2011 01:39:14] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 01:39:14] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:01:27] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:01:27] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:09:57] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:09:57] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:17:01] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:17:01] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:26:54] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:26:54] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:28:22] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:28:22] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:28:42] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:28:42] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:32:38] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:32:38] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:34:44] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:34:44] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[02-Jul-2011 03:44:45] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 462
+[02-Jul-2011 03:44:45] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/prof/public_html/libraries/joomla/database/database/mysql.php on line 469
+[03-Jul-2011 05:31:55] PHP Fatal error:  Call to undefined method JDocumentPDF::addHeadLink() in /home/prof/public_html/components/com_zoo/controllers/default.php on line 241
+[12-Jul-2011 11:34:07] PHP Warning[26-Jul-2011 20:34:15] PHP Fatal error:  Class 'JFeedItem' not found in /home/prof/public_html/components/com_zoo/controllers/default.php on line 410
+[28-Jul-2011 03:05:20] PHP Fatal error:  Class 'JFeedItem' not found in /home/prof/public_html/components/com_zoo/controllers/default.php on line 410
+[31-Jul-2011 07:32:24] PHP Fatal error:  Class 'JFeedItem' not found in /home/prof/public_html/components/com_zoo/controllers/default.php on line 410
+[02-Aug-2011 23:48:52] PHP Fatal error:  Class 'JFeedItem' not found in /home/prof/public_html/components/com_zoo/controllers/default.php on line 410

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Analytics</name>
+    <author>Kinshuk Kulshreshtha</author>
+    <creationDate>17/07/2009</creationDate>
+    <license>GNU/GPL</license>
+    <version>1.0</version>
+    <description>Show Google Analytics in Joomla Backend</description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.analytics.php</installfile>
+    <uninstallfile>uninstall.analytics.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_analytics">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>analytics.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_analytics.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">Analytics</menu>
+    <submenu>
+        <menu link="option=com_analytics">Dashboard</menu>
+    </submenu>
+
+    <files>
+        <filename>analytics.xml</filename>
+    </files>
+    <files folder="administrator/components/com_analytics">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.analytics.php</filename>
+        <filename>analytics.php</filename>
+        <filename>uninstall.analytics.php</filename>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_analytics.menu.ini</language>
+        <language tag="en-GB">en-GB.com_analytics.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+
+    </params>
+
+</install>

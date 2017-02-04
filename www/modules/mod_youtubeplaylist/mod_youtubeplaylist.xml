@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5.0">
+<name>Youtube playlist player</name>
+<author>Nguyen Hoang Viet</author>
+<creationDate>February 2010</creationDate>
+<copyright>Copyright (C) 2009 www.vatlieu.us. All rights reserved.</copyright>
+<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+<authorEmail>viet4777@yahoo.com</authorEmail>
+<authorUrl>viet4777.vatlieu.us</authorUrl>
+<version>1.5</version>
+<description>DESCRN_DESCRIPTION</description>
+<files>
+	<filename module="mod_youtubeplaylist">mod_youtubeplaylist.php</filename>
+	<filename>tmpl/default.php</filename>
+	<filename>tmpl/index.html</filename>
+	<filename>js/swfobject.js</filename>
+	<filename>js/index.html</filename>
+	<filename>css/index.html</filename>
+	<filename>css/style.css</filename>
+	<filename>helper.php</filename>
+	<filename>index.html</filename>
+</files>
+<languages>
+	<language tag="en-GB">languages/en-GB.mod_youtubeplaylist.ini</language>
+</languages>
+<params>
+<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="vid" type="textarea" default="" label="Video id list" rows="5" cols="30" description="DESCRN_VID" />
+<param name="vpid" type="textarea" default="" label="Video playlist id list" rows="5" cols="30" description="DESCRN_VPID" />
+
+<param name="playlist" type="radio" default="0" label="Setting" description="DESCRN_PLAYTYPE">
+<option value="0">Video</option>
+<option value="1">Playlist</option>
+</param>
+<param name="style" type="list" default="0" label="Display style" description="DESCRN_PLAYSTYLE">
+<option value="0">Number list</option>
+<option value="1">Droplist</option>
+<option value="2">Image list</option>
+</param>
+<param name="imagewidth" type="text" default="50" size="5" label="Image width" description="DESCRN_IMAGEWITH" />
+<param name="numimage" type="text" default="4" size="5" label="Image per line" description="DESCRN_IMAGELINE" />
+<param name="position" type="list" default="1" label="Playlist position" description="DESCRN_VIDEOPOS">
+<option value="0">Above</option>
+<option value="1">Below</option>
+</param>
+<param name="class" type="text" default="" size="15" label="Container class" description="DESCRN_CLASS" />
+<param name="id" type="text" default="" size="15" label="Container Id" description="DESCRN_ID" />
+<param name="width" type="text" default="425" size="5" label="Width" description="DESCRN_WIDTH" />
+<param name="height" type="text" default="355" size="5" label="Height" description="DESCRN_HEIGHT" />
+<param name="related" type="list" default="1" label="Related videos" description="DESCRN_RELATED">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+</param>
+<param name="color1" type="text" default="" size="5" label="Color1" description="DESCRN_COLOR1" />
+<param name="color2" type="text" default="" size="5" label="Color2" description="DESCRN_COLOR2" />
+<param name="border" type="list" default="0" label="Border" description="DESCRN_BORDER">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+</param>
+<param name="autoplay" type="list" default="0" label="Autoplay" description="DESCRN_AUTOPLAY">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+</param>
+<param name="randomplay" type="list" default="1" label="Randomplay" description="DESCRN_RANDOMPLAY">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+</param>
+<param name="allowfullscreen" type="list" default="1" label="Allow full screen" description="DESCRN_ALLOWFS">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+</param>
+<param name="otherparams" type="text" default="" label="Other parameters" size="30" description="DESCRN_OTHERPARAMS" />
+<param name="before_string" type="textarea" default="" label="Text before video" rows="3" cols="30" description="DESCRN_BEFORE_VIDEO" />
+<param name="after_string" type="textarea" default="" label="Text after video" rows="3" cols="30" description="DESCRN_AFTER_VIDEO" />
+</params>
+</install>

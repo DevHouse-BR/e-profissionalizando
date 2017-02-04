@@ -36,5 +36,16 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 		</td>
 	</tr>
 	</table>
+<!-- inserted programatically -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-18006862-1");
+pageTracker._trackPageview('/error/<?php echo $this->error->code ; ?>/<?php echo $_SERVER['REQUEST_URI'];?> : referer=<?php $_SERVER['HTTP_REFERER']?> ');
+} catch(err) {}
+</script>
 </body>
 </html>

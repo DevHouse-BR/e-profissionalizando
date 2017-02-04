@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+<name>Sitemap Generator</name>
+<author>shivanshu</author>
+<creationDate>July 2010</creationDate>
+<authorEmail>info@dasinfomedia.com</authorEmail>
+<authorUrl>www.dasinfomedia.com</authorUrl>
+<version>1.0</version>
+<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+<description>This module generate sitemap.xml file as well frontend site map.To call this module in content area use {loadposition position_name} syntax.Submit domainname.com/sitemap.xml in google webmaster.
+</description>
+<files>
+	<filename>mod_sitemapgenerator.xml</filename>
+	<filename module="mod_sitemapgenerator">mod_sitemapgenerator.php</filename>
+	<filename>index.html</filename>
+	<filename>helper.php</filename>
+	<filename>tmpl/default.php</filename>
+	<filename>tmpl/index.html</filename>
+</files>
+<params>
+	<param name="domain_name" type="text" default="" label="Domain Name" description="Enter Your Doamin name like http://www.example.com/" />
+	<param name="articleid" type="text" default="0" label="ArticleId" description="Enter the id of the article which you dont want to display.Ex.5,6,12" />
+	<param name="crawl" type="radio" default="Daily" label="Crawl Time" description="Select Crawling Period">
+		<option value="Daily">Daily</option>
+		<option value="Weekly">Weekly</option>
+		<option value="Monthly">Monthly</option>
+	</param>
+	<param name="priority" type="list" default="1.0" label="Priority" description="Select Link Priority">
+		<option value="1.0">1.0</option>
+		<option value="0.9">0.9</option>
+		<option value="0.8">0.8</option>
+		<option value="0.7">0.7</option>
+		<option value="0.6">0.6</option>
+		<option value="0.5">0.5</option>
+		<option value="0.4">0.4</option>
+		<option value="0.3">0.3</option>
+		<option value="0.2">0.2</option>
+		<option value="0.1">0.1</option>
+	</param>
+</params>
+</install>

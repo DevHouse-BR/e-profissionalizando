@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Language" content="pt-br">
+	<title>Demonstração do Curso</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<script src="js/swfobject.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var flashvarsVideo = {
+			source: "http://arquivos.portalava.com.br/administracao_de_imoveis_e_locacao/DEMO_adm_imov_locacao_01.flv",
+			type: "video",
+			streamtype: "file",
+			server: "",//Used for rtmp streams
+			duration: "52",
+			poster: "poster.png",
+			autostart: "false",
+			logo: "logo.png",
+			logoposition: "bottom right",
+			logoalpha: "40",
+			logowidth: "70",
+			logolink: "http://www.e-profissionalizando.com/pt/home/item/curso-de-ingles-iniciante",
+			hardwarescaling: "false",
+			darkcolor: "000000",
+			brightcolor: "4c4c4c",
+			controlcolor: "FFFFFF",
+			hovercolor: "67A8C1"
+		};
+		
+		var params = {
+			menu: "false",
+			scale: "noScale",
+			allowFullscreen: "true",
+			allowScriptAccess: "always",
+			bgcolor: "#000000",
+			quality: "high",
+			wmode: "opaque"
+		};
+		var attributes = {
+			id:"JarisFLVPlayer"
+		};
+		swfobject.embedSWF("JarisFLVPlayer.swf", "altContentOne", "250px", "175px", "10.0.0", "expressInstall.swf", flashvarsVideo, params, attributes);
+		
+	</script>
+	<style>
+		html, body { height:100%; }
+		body { margin:0; }
+	</style>
+</head>
+<body>
+	<center>
+	
+	<div id="altContentOne">
+		
+	</div>
+	
+	<br /><br />&nbsp;</center>
+</body>
+</html>

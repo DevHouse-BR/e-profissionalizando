@@ -1,0 +1,2 @@
+[20-Jan-2011 15:00:15] PHP Warning:  Unterminated comment starting line 1236 in /home/prof/public_html/call/call.php on line 1236
+[20-Jan-2011 15:00:15] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home/prof/public_html/call/call.php on line 1236

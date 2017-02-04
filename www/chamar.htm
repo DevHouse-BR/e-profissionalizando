@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head> <title>TelWeb</title>
+<script type="text/javascript" src="jquery-1.3.2.min.js"></script> 
+</head>
+<body>
+<center>
+	<font face="Verdana" size="2">Chamadas para celulares não são permitidas</font><table border="0" width="26%" cellspacing="0" cellpadding="2">
+	<form method="post" name="telweb" action="call.php" id="form_telefone">
+<font face="Verdana">
+<input type="hidden" name="tela" value="3332413643">
+<input type="hidden" name="default" value="0055">
+<input type="hidden" name="forceb" value="0055">
+
+		</font>
+
+		<tr>
+			<td align="left"><b><font face="Verdana" size="2">Seu telefone:</font></b></td>
+			<td width="148"><font face="Verdana"><input type="text" name="telb" id="telefone" value=""></font></td>
+		</tr><tr>
+			<font face="Verdana">
+			<input type="hidden" name="us" value="inglescurso2010">
+			<input type="hidden" name="ps" value="12131415">
+			</font>
+		</tr><tr>
+			<td align="left"><b><font face="Verdana" size="2">DDD+Número sem 
+			operadora</font></b></td>
+			<td width="148"><font face="Verdana"><input type="hidden" name="provider" value="justvoip.com">
+			</font><font face="Verdana" size="2">Ex: 1132745650</font></td>
+		</tr><tr>
+			<td align="right"></td>
+			<td width="148">
+			<font face="Verdana">
+			<input type="button" value="Chamar" onClick="submeterForm();"></font></td>
+		</tr>
+	</table>
+    </form>
+    </center>
+</body>
+<script language="javascript">
+submeterForm = function()
+{
+	if($('#telefone').val().length != 10)
+	{
+		alert('Por favor, digite corretamente o telefone (DDD + Numero).')
+		return false;
+	}
+	
+	digito_verificador = $('#telefone').val().substr(2, 1);
+	
+	if(digito_verificador == 6 || digito_verificador == 7 || digito_verificador == 8 || digito_verificador == 9)
+	{
+		alert('Digite um numero de telefone fixo. Nao sao permitidos numeros de telefones celulares.');
+		return false;
+	}
+	
+	$('#form_telefone').submit();
+}
+</script>
+
+
+</html>

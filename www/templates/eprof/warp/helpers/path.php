@@ -79,6 +79,9 @@ class WarpHelperPath extends WarpHelper {
 
 			$path = dirname($_SERVER['SCRIPT_FILENAME']);
 			$uri  = dirname($_SERVER['SCRIPT_NAME']);
+			$uri = ($uri == '\\') ? '/' : $uri;
+
+
 	        $url  = ($uri == '/' ? null : $uri).'/'.ltrim(str_replace($path, '', $url), '/');
 	    }
 	
