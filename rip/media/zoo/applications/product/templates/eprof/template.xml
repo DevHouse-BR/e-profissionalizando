@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>E-Profissionalizando</name>
+	<version>1.0.0</version>
+	<creationDate>Agosto 2010</creationDate>
+	<author>Leonardo</author>
+	<authorEmail>leonardo@devhouse.com.br</authorEmail>
+	<authorUrl>http://www.devhouse.com.br</authorUrl>
+    <copyright>Copyright (C) 2010 DevHouse</copyright>
+    <license></license>
+	<description>Template para visualização dos cursos da e-profissionalizando</description>
+	<params group="category">
+		<param name="show_alpha_index" type="list" default="1" label="Índice Alfabético" description="Exibir/Esconder Índice Alfabético">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_title" type="radio" default="1" label="Título" description="Exibir/Esconder Título">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_description" type="radio" default="1" label="Descrição" description="Exibir/Esconder Descrição">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_image" type="radio" default="1" label="Imagem" description="Exibir/Esconder Imagem">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="alignment" type="list" default="left" label="Alignment" description="IMAGE_AND_CONTENT_ALIGNEMENT">
+			<option value="left">Imagem a Esquerda</option>
+			<option value="right">Imagem a Direita</option>
+			<option value="center">Centralizado</option>
+		</param>
+		<param name="@spacer" type="spacer" />
+		<param name="categories_cols" type="radio" default="4" label="Categories Columns" description="COLUMNS_PER_ROW_DESCRIPTION.">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</param>
+		<param name="show_categories_titles" type="radio" default="1" label="Títulos das Categorias" description="Exibir/Esconder Títulos das Categorias">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_categories_item_count" type="radio" default="1" label="Contagem de Itens das Categorias" description="Exibir/Esconder Contagem de Itens das Categorias">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_categories_descriptions" type="radio" default="1" label="Descrição das Categorias" description="Exibir/Esconder Descrição das Categorias">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_categories_images" type="radio" default="1" label="Imagens das Categorias" description="Exibir/Esconder Imagens das Categorias">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_sub_categories" type="radio" default="1" label="Sub-Categorias" description="Exibir/Esconder Sub-Categorias">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="show_sub_categories_item_count" type="radio" default="1" label="Contagem de Itens das Sub-Categorias" description="Exibir/Esconder Contagem de Itens das Sub-Categorias">
+			<option value="0">Esconder</option>
+			<option value="1">Exibir</option>
+		</param>
+		<param name="@spacer" type="spacer" />
+		<param name="items_cols" type="radio" default="2" label="Colunas de Itens" description="COLUMNS_PER_ROW_DESCRIPTION">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</param>
+		<param name="items_media_alignment" type="list" default="left" label="Alinhamento da Midia dos Itens" description="MEDIA_ELEMENT_ALIGNEMENT">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+			<option value="center">Center</option>
+		</param>
+	</params>
+	<params group="item">
+		<param name="item_media_alignment" type="list" default="right" label="Alinhamento da Midia do Item" description="MEDIA_ELEMENT_ALIGNEMENT">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+			<option value="center">Center</option>
+			<option value="top">Top</option>
+		</param>
+	</params>
+</template>
